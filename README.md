@@ -2,7 +2,7 @@
 
 Simply include the file in your PHP code and use it like so:
 
-```
+```php
 include 'path/to/GeoCalc.php';
 
 echo GeoCalc::sqArea(3); // outputs 9
@@ -12,7 +12,7 @@ echo GeoCalc::sqArea(3); // outputs 9
 
 All methods return the un-rounded value.
 
-```
+```php
 GeoCalc::sqPerim($a) // Square Perimeter
 GeoCalc::rectPerim($l, $b) // Rectangle Perimeter
 
